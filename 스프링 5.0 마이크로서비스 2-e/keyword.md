@@ -1,7 +1,6 @@
 **키워드 정리.**
 
 # 스프링 5.0 마이크로서비스 2-e 
-****
 ## 01. 쉽게 알아보는 마이크로 서비스
 - Monolithic Architecture : 전통적인 일체형 아키텍처
 - Service Oriented Architecture (SOA) : 서비스 지향 아키텍쳐
