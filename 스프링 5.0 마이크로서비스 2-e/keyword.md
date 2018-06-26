@@ -21,12 +21,17 @@
 	- D {DIP 의존관계 역전 원칙 (Dependency inversion principle)} : 프로그래머는 “추상화에 의존해야지, 구체화에 의존하면 안된다.” 의존성 주입은 이 원칙을 따르는 방법 중 하나다.
 - SOA 특징
 	- 서비스 계약 : 일반적으로 JSON(혹은 WADL, Swagger, RAML)/REST 을 이용해서 커뮤니케이션
-	- 느슨한 결합
-	- 서비스 추상화
-	- 서비스 재사용
-	- 무상태
-	- 탐색 가능
-	- 서비스 호환성
-	- 서비스 조립성
-
-
+	- 느슨한 결합 : 서로 느슨하게 연결되어 있고, 이벤트로 입력을 받고, 이벤트로 응답한다.
+	- 서비스 추상화 : 모든 라이브러리와 제반 환경 전체를 추상화한다.
+	- 서비스 재사용 : 마이크로서비스는 덩어리째 재사용 가능 (모바일, 데스크톱, 또 다른 마이크로서비스 아예 다른 시스템에서도 접근 가능)
+	- 무상태 : 말 그대로 무상태
+	- 탐색 가능 : 자신의 존재를 스스로 드러내서 알리고, 탐색에 의해 찾아짐. (스웨거 등을 통해 api 리스트가 정리된 것 등)
+	- 서비스 호환성 : 표준 프로토콜과 메시지 교환 표준 준수 (HTTP, REST/JSON, 메시징 (Message Queue 등))
+	- 서비스 조립성 : 조립이 가능, 서비스 오케스트레이션이나 서비스 연출을 통해 확보 가능
+		- Service Orchestration : 메시지 교환을 담당하는 어떤 주체에 의해 메시지를 주고받는 방식
+		- Service Choreography : 서비스간의 메시지 교환에 있어서 각 서비스들의 전역적인 수준에서 스스로 메시지를 주고받음
+- 붕괴 저항성 : 스트레스, 쇼크, 실수, 잘못, 공격 등에 대해서 허용성, 내구성, 회복력을 높이는것 (Antifragility is a property of systems that increase in capability, resilience, or robustness as a result of stressors, shocks, volatility, noise, mistakes, faults, attacks, or failures)
+- 빨리 실패하기 : 장애를 견딜 수 있고, 회복력이 좋은 시스템 구축에 이용 (평균 무고장 시간을 높이는 것이 아닌 평균 복구 시간을 높이는 것에 중점을 둠)
+- 자체 치유 : 시스템이 장애로부터 학습을 하고 스스로를 장애에 적응시킨다는 개념 (AWS auto scale out이 이에 해당되는 듯)
+- 스케일 큐브 : 애플리케이션을 확장하는 세가지 주요 접근 방식
+![스케일 큐브](http://microservices.io/i/DecomposingApplications.021.jpg "스케일 큐브")
