@@ -33,5 +33,8 @@
 - 붕괴 저항성 : 스트레스, 쇼크, 실수, 잘못, 공격 등에 대해서 허용성, 내구성, 회복력을 높이는것 (Antifragility is a property of systems that increase in capability, resilience, or robustness as a result of stressors, shocks, volatility, noise, mistakes, faults, attacks, or failures)
 - 빨리 실패하기 : 장애를 견딜 수 있고, 회복력이 좋은 시스템 구축에 이용 (평균 무고장 시간을 높이는 것이 아닌 평균 복구 시간을 높이는 것에 중점을 둠)
 - 자체 치유 : 시스템이 장애로부터 학습을 하고 스스로를 장애에 적응시킨다는 개념 (AWS auto scale out이 이에 해당되는 듯)
-- 스케일 큐브 : 애플리케이션을 확장하는 세가지 주요 접근 방식
+- 스케일 큐브 : 애플리케이션을 확장하는 세가지 주요 접근 방식 (아래 이미지의 y축과 z축이 내가 아는 개념과 다른데??)
+	- x축 : 애플리케이션 복제
+	- y축 : 기능 분리
+	- z축 : 데이터 파티셔닝과 샤딩
 ![스케일 큐브](http://microservices.io/i/DecomposingApplications.021.jpg "스케일 큐브")
