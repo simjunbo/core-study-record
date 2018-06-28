@@ -42,4 +42,4 @@
 
 
 ## 02. 마이크로서비스 관련 아키텍처 스타일 및 사례
--서비스 지향 아키텍처(Service Oriented Architecture)
+- 서비스 지향 아키텍처(Service Oriented Architecture)
