@@ -63,4 +63,5 @@
 	- 12) Admin 프로세스 : admin/maintenance 작업을 일회성 프로세스로 실행
 - 서버리스 컴퓨팅 : 단순히 서버가 없다는것 뿐만 아니라 서비스 단위의프로그램 코드만을 개발하고 배포에 집중한다는 의미도 포함되어 있다.
 - 람다 아키텍처 : 실시간 분석을 지원하는 빅데이터 아키텍쳐
-https://t1.daumcdn.net/cfile/tistory/247BBC4B58CFFEB216
+![람다 아키텍처](https://t1.daumcdn.net/cfile/tistory/247BBC4B58CFFEB216 "람다 아키텍처")
+
