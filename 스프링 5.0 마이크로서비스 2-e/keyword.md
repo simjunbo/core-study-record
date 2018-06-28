@@ -42,4 +42,11 @@
 
 
 ## 02. 마이크로서비스 관련 아키텍처 스타일 및 사례
-- 서비스 지향 아키텍처(Service Oriented Architecture)
+- 서비스 지향 아키텍처(Service Oriented Architecture) : 서비스 지향성을 지원하는 아키텍쳐 스타일
+- 서비스 지향성 : 서비스 그 자체, 서비스 기반의 개발, 서비스의 결과 관점에서 생각하는 방식을 의미
+- ESB(Enterprise Service Bus) 정의
+	- 서비스들간의 상호연계를 위한 논리적인 Layer로 다양한 인터페이스를 제공하며 이를 통해 서비스 조합, 연계, 상호운용(이벤트, 메세징)을 제공하는 인프라
+	- Web Service, Intelligent Message Routing, Transformation 기술을 바탕으로 내/외부 정보시스템을 통합, 관리, 사용 지원하는 SOA지원 미들웨어 플랫폼
+	- 비즈니스 단위들의 통합을 수월하게 하면서 이종의 플랫폼과 환경들을 잇는 가교 역할을 하는 인프라	
+	
+	
