@@ -64,4 +64,12 @@
 - 서버리스 컴퓨팅 : 단순히 서버가 없다는것 뿐만 아니라 서비스 단위의프로그램 코드만을 개발하고 배포에 집중한다는 의미도 포함되어 있다.
 - 람다 아키텍처 : 실시간 분석을 지원하는 빅데이터 아키텍쳐
 ![람다 아키텍처](https://t1.daumcdn.net/cfile/tistory/247BBC4B58CFFEB216 "람다 아키텍처")
+	- 배치 계층 : raw 데이터가 저장되어 있고, batch 처리하여 배치 뷰 생성 (HDFS, Amazon S3)
+	- 서빙 계층 : batch로 분석된 데이터가 저장되어 있고 batch 외에는 쓰기가 안됨 (HBase, Amazon RedShift)
+	- 스피드 계층 : 실시간 데이터를 집계 (Storm, Spark, Redis)
+- 리액티브 시스템 : 오늘날의 애플리케이션에 대한 높은 요구사항을 충족시키는 현대적인 시스템을 만들기 위한 구조적인 설계 원칙의 집합이다. (메시지)
+- 리액티브 프로그래밍 : 비동기 데이터 흐름에 기반을 둔 프로그래밍 패러다임이다. (이벤트)
+- 리액티브 시스템 vs 리액티브 프로그래밍 (http://blog.lespinside.com/reactive-programming-versus-reactive-systems/)
+- 폴리글랏(polyglot) : 여러가지 언어로 개발하는 것
+- 모놀리틱 아키텍처 (Monolithic Architecture) : 마이크로서비스 아키텍처의 반대 개념 (일체형 아키텍처)
 
