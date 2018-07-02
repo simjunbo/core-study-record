@@ -72,5 +72,6 @@
 - 리액티브 시스템 vs 리액티브 프로그래밍 (http://blog.lespinside.com/reactive-programming-versus-reactive-systems/)
 - 폴리글랏(polyglot) : 여러가지 언어로 개발하는 것
 - 모놀리틱 아키텍처 (Monolithic Architecture) : 마이크로서비스 아키텍처의 반대 개념 (일체형 아키텍처)
+- 패러다임 변화
 ![IT 시스템의 패러다임 변화](https://image.slidesharecdn.com/4-140520111304-phpapp02/95/4-soa-5-638.jpg?cb=1400584442 "패러다임 변화")
 
