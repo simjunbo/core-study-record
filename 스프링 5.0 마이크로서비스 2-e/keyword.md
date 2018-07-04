@@ -70,6 +70,7 @@
 - 리액티브 시스템 : 오늘날의 애플리케이션에 대한 높은 요구사항을 충족시키는 현대적인 시스템을 만들기 위한 구조적인 설계 원칙의 집합이다. (메시지)
 - 리액티브 프로그래밍 : 비동기 데이터 흐름에 기반을 둔 프로그래밍 패러다임이다. (이벤트)
 - 리액티브 시스템 vs 리액티브 프로그래밍 (http://blog.lespinside.com/reactive-programming-versus-reactive-systems/)
+![리액티브 선언문](https://www.reactivemanifesto.org/ko "리액티브 선언문")
 - 폴리글랏(polyglot) : 여러가지 언어로 개발하는 것
 - 모놀리틱 아키텍처 (Monolithic Architecture) : 마이크로서비스 아키텍처의 반대 개념 (일체형 아키텍처)
 
